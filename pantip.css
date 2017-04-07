@@ -1,0 +1,90 @@
+body{
+	background-image: url('img/gh2.gif');
+	background-size: cover;
+	color: white;
+	margin: 2em;
+	font-size: 1em;
+}
+#topic{
+	background: #193366;
+	border: 1px solid white;
+	padding: 1em;
+	margin: 3em;
+	box-shadow: 1em 1em 2em white;
+}
+#topic:hover{
+	background-image: url('img/gh.gif');
+	transition: all .7s;
+	background-size: cover;
+}
+#topic-title{
+	color: yellow;
+	font-weight: 900;
+}
+#topic-story{
+	font-size: 1em;
+	margin: 2em;
+}
+
+.comment{
+	background: #193366;
+	border: 1px solid white;
+	padding: 1em;
+	margin: 1em;
+}
+
+.left-comment{
+	position: absolute;
+	right: 1em;
+}
+
+.comment-user{
+	color: gray;
+	font-size: 400;
+}
+.comment-story{
+	font-size: 0.9em;
+
+}
+textarea{
+	font-size: 1em;
+	padding-bottom: 10%;
+	width: 95%;
+	margin: 1em;
+}
+
+.replybox{
+	background: #093a43;
+	border: .1px solid white;
+	text-align: center;
+	display: inline;
+	margin: .1%;
+	padding-bottom: .1%;
+	padding-top: .1%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+#reply-bt {
+	display: inline;
+}
+
+#reply-bt:hover{
+	background: #5c8a2f;
+	color: white;
+	font-size: 1em;
+	width: 5em;
+	text-align: center;
+	border: 1px solid white;
+	transition: all .3s;
+	font-weight: 900;
+	box-shadow: .5em .5em 2em gray;
+}
+
+.bg-head{
+	text-align: center;
+	background-image: url('img/gh4.gif');
+	background-size: cover;
+	opacity: 0.8;
+	padding: 2em;
+	box-shadow: 1em 1em 3em gray;
+}
