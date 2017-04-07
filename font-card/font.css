@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'fontf';
+  src: url('ABOVE  - PERSONAL USE ONLY.eot');
+  src: url('ABOVE  - PERSONAL USE ONLY.woff2') format('woff2'),
+       url('ABOVE  - PERSONAL USE ONLY.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontfr';
+  src: url('AboveDEMO-Regular.woff') format('woff'),
+       url('AboveDEMO-Regular.ttf') format('truetype'),
+       url('AboveDEMO-Regular.svg#AboveDEMO-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.textcenter{
+	text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-family: 'fontfr';
+
+}
+.textcenter h1{
+  font-size: 7em;
+  font-style: italic;
+  text-decoration: underline;
+}
+.textcenter h3{
+  font-size: 5em;
+}
+.textcenter h2{
+  font-size: 2em;
+  padding: 30px;
+}
+
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+    background: url('bg.jpg') no-repeat fixed;
+    background-size: cover;
+}

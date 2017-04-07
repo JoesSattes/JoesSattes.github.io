@@ -1,0 +1,35 @@
+.color{
+	color: red;
+}
+.box{
+	background: #ffe23b;
+}
+.font-size{
+	font-size: 3em;
+	padding-left: 2em;
+}
+.font-style{
+	font-style: italic;
+}
+.font-style:hover{
+	font-style: inherit;
+}
+.font-weight{
+	font-weight: 900;
+}
+.font-family{
+	font-family: 'angsana new', serif;
+}
+.font-align{
+	text-align: center;
+}
+.text-decoration{
+	text-decoration: line-through;
+}
+.text-transform{
+	text-transform: uppercase;
+}
+.text-shadow{
+	text-shadow: 3px 2px 3px red;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+}
