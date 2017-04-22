@@ -1,0 +1,85 @@
+.container{
+    margin-left: 26%;
+    margin-right: 26%;
+    padding: 3%;
+    float: left;
+}
+
+.head_container{
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+
+html #page_1{
+    background: url("img/bg.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+}
+
+html #page_2{
+    background: url("img/bg2.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+#page_1 .head_menu{
+    padding-top: 1%;
+    padding-left: 26%;
+    padding-right: 26%;
+    text-align: right;
+    background-color: #F8DCD8;
+}
+
+#page_2 .head_menu{
+    padding-top: 1%;
+    padding-left: 26%;
+    padding-right: 26%;
+    text-align: right;
+    background-color: #F3F3F3;
+}
+
+
+.head_menu a{
+    color: #C64E83;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+img.img-center {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: #9CB6D7;
+}
+
+p{
+    color: #C64E83;
+}
+.paragraph{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.colum{
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+}

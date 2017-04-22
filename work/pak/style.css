@@ -1,0 +1,14 @@
+.bg{
+
+}
+
+img .img-center {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+body{
+  background: url("img/01/bg.png") no-repeat center top fixed;
+  background-size: cover;
+}
+

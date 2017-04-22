@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'ceragr-black';
+    src: url('../fonts/cera-gr/cera_gr_black-webfont.woff2') format('woff2'),
+         url('../fonts/cera-gr/cera_gr_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ceragr-bold';
+    src: url('../fonts/cera-gr/cera_gr_bold-webfont.woff2') format('woff2'),
+         url('../fonts/cera-gr/cera_gr_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ceragr-light';
+    src: url('../fonts/cera-gr/cera_gr_light-webfont.woff2') format('woff2'),
+         url('../fonts/cera-gr/cera_gr_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ceragr-medium';
+    src: url('../fonts/cera-gr/cera_gr_medium-webfont.woff2') format('woff2'),
+         url('../fonts/cera-gr/cera_gr_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ceragr-thin';
+    src: url('../fonts/cera-gr/cera_gr_thin-webfont.woff2') format('woff2'),
+         url('../fonts/cera-gr/cera_gr_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ceragr-regular';
+    src: url('../fonts/cera-gr/cera_gr-webfont.woff2') format('woff2'),
+         url('../fonts/cera-gr/cera_gr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aloha';
+    src: url('../fonts/ke-aloha/ke_aloha-webfont.woff2') format('woff2'),
+         url('../fonts/ke-aloha/ke_aloha-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'th-sarabun';
+    src: url('../fonts/THSarabunNew.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
