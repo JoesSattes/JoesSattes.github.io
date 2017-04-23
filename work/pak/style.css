@@ -1,19 +1,327 @@
 .container{
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 18%;
+    margin-right: 18%;
+    position: relative;
 }
-.logo{
-    padding: 10%;
+.logo img{
+    width: 30%;
+    padding-top: 1%;
+}
+.cloud img{
+    width: 85%;
+    padding-left: 8%;
 }
 
-img .img-center {
+.menu_img1{
+    position: absolute;
+    width: 6%;
+    top: 68%;
+    bottom: 0;
+    left: 22%;
+    right: 0;
+    display: block;
+}
+
+.menu_img2{
+    position: absolute;
+    width: 9%;
+    top: 73.5%;
+    bottom: 0;
+    left: 37%;
+    right: 0;
+}
+
+.menu_img3{
+    position: absolute;
+    width: 9%;
+    top: 74.5%;
+    bottom: 0;
+    left: 54%;
+    right: 0;
+}
+
+.menu_img4{
+    position: absolute;
+    width: 9%;
+    top: 75.5%;
+    bottom: 0;
+    left: 70%;
+    right: 0;
+}
+
+.text_img1 img{
+    position: absolute;
+    width: 60%;
+    top: 113%;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+}
+.text_img2 img{
+    position: absolute;
+    width: 65%;
+    top: 135.5%;
+    bottom: 0;
+    left: 13%;
+    right: 0;
+}
+.boat_img img{
+    position: absolute;
+    width: 53%;
+    top: 89.5%;
+    bottom: 0;
+    left: 52%;
+    right: 0;
+}
+
+.boat_img4 img{
+    position: absolute;
+    width: 82%;
+    top: 120.5%;
+    bottom: 0;
+    left: 47%;
+    right: 0;
+}
+
+
+.name img{
+    position: absolute;
+    width: 55%;
+    top: 267%;
+    bottom: 0;
+    left: 22%;
+    right: 0;
+}
+
+.name2 img{
+    position: absolute;
+    width: 35%;
+    top: 180%;
+    bottom: 0;
+    left: 34%;
+    right: 0;
+}
+
+.name3 img{
+    position: absolute;
+    width: 35%;
+    top: 260%;
+    bottom: 0;
+    left: 34%;
+    right: 0;
+}
+
+.name4 img{
+    position: absolute;
+    width: 35%;
+    top: 250%;
+    bottom: 0;
+    left: 34%;
+    right: 0;
+}
+
+
+.topic2 img{
+    position: absolute;
+    width: 40%;
+    top: 88.5%;
+    bottom: 0;
+    left: 22%;
+    right: 0;
+}
+
+.king_img img{
+    position: absolute;
+    width: 40%;
+    top: 115.5%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+}
+
+
+.text2 img{
+    position: absolute;
+    width: 30%;
+    top: 120.5%;
+    bottom: 0;
+    left: 17%;
+    right: 0;
+}
+
+.text3_1 img{
+    position: absolute;
+    width: 30%;
+    top: 150.5%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+}
+
+.text3_2 img{
+    position: absolute;
+    width: 20%;
+    top: 177.5%;
+    bottom: 0;
+    left: 29%;
+    right: 0;
+}
+
+.text4_1 img{
+    position: absolute;
+    width: 30%;
+    top: 150.5%;
+    bottom: 0;
+    left: 16%;
+    right: 0;
+}
+
+.text4_2 img{
+    position: absolute;
+    width: 25%;
+    top: 258.5%;
+    bottom: 0;
+    left: 51%;
+    right: 0;
+}
+
+.bird4_1 img{
+    position: absolute;
+    width: 15%;
+    top: 0%;
+    bottom: 0;
+    left: 19%;
+    right: 0;
+}
+
+.bird4_2 img{
+    position: absolute;
+    width: 8%;
+    top: 47%;
+    bottom: 0;
+    left: 62%;
+    right: 0;
+}
+
+.bird4_3 img{
+    position: absolute;
+    width: 28%;
+    top: 63%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+}
+
+.bird3_1 img{
+    position: absolute;
+    width: 14%;
+    top: 40%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+}
+
+
+.bird3_2 img{
+    position: absolute;
+    width: 28%;
+    top: 63%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+}
+
+.bird3_3 img{
+    position: absolute;
+    width: 14%;
+    top: 150%;
+    bottom: 0;
+    left: 85%;
+    right: 0%;
+}
+
+.bird2_1 img{
+    position: absolute;
+    width: 43%;
+    top: 4%;
+    bottom: 0;
+    left: 5%;
+    right: 0;
+}
+
+.bird2_2 img{
+    position: absolute;
+    width: 6%;
+    top: 48%;
+    bottom: 0;
+    left: 46%;
+    right: 0;
+}
+
+.bird1 img{
+    position: absolute;
+    width: 28%;
+    top: 0%;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+}
+
+.boat_humen img{
+    position: absolute;
+    width: 100%;
+    top: 83%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.boat_humen4 img{
+    position: absolute;
+    width: 100%;
+    top: 170%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.king img{
+    position: absolute;
+    width: 100%;
+    top: 145%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.img-center img{
     display: block;
     margin: auto;
-    width: 100%;
 }
-body{
+html .page_1{
   background-image: url("img/01/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+html .page_2{
+  background-image: url("img/02/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .page_3{
+  background-image: url("img/03/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .page_4{
+  background-image: url("img/04/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 

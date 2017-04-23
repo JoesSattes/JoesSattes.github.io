@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'HelveticaRounded-Black';
-  src: url('fonts/HelveticaRounded-Black.eot?#iefix') format('embedded-opentype'),  url('fonts/HelveticaRounded-Black.otf')  format('opentype'),
-       url('fonts/HelveticaRounded-Black.woff') format('woff'), url('fonts/HelveticaRounded-Black.ttf')  format('truetype'), url('fonts/HelveticaRounded-Black.svg#HelveticaRounded-Black') format('svg');
+  src: url('../fonts/HelveticaRounded-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaRounded-Black.otf')  format('opentype'),
+       url('../fonts/HelveticaRounded-Black.woff') format('woff'), url('../fonts/HelveticaRounded-Black.ttf')  format('truetype'), url('../fonts/HelveticaRounded-Black.svg#HelveticaRounded-Black') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'HelveticaRounded-Bold';
-  src: url('fonts/HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/HelveticaRounded-Bold.otf')  format('opentype'),
-       url('fonts/HelveticaRounded-Bold.woff') format('woff'), url('fonts/HelveticaRounded-Bold.ttf')  format('truetype'), url('fonts/HelveticaRounded-Bold.svg#HelveticaRounded-Bold') format('svg');
+  src: url('../fonts/HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaRounded-Bold.otf')  format('opentype'),
+       url('../fonts/HelveticaRounded-Bold.woff') format('woff'), url('../fonts/HelveticaRounded-Bold.ttf')  format('truetype'), url('../fonts/HelveticaRounded-Bold.svg#HelveticaRounded-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,17 +18,17 @@
 
 @font-face {
   font-family: 'ChulaNarak';
-  src: url('fonts/ChulaNarak.eot?#iefix') format('embedded-opentype'),  url('fonts/ChulaNarak.woff') format('woff'), url('fonts/ChulaNarak.ttf')  format('truetype'), url('fonts/ChulaNarak.svg#ChulaNarak') format('svg');
+  src: url('../fonts/ChulaNarak.eot?#iefix') format('embedded-opentype'),  url('../fonts/ChulaNarak.woff') format('woff'), url('../fonts/ChulaNarak.ttf')  format('truetype'), url('../fonts/ChulaNarak.svg#ChulaNarak') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Hoefler Text';
-  src: url('fonts/HoeflerText-Regular.eot');
-  src: url('fonts/HoeflerText-Regular.eot?#iefix') format('embedded-opentype'),
-    url('fonts/HoeflerText-Regular.woff') format('woff'),
-    url('fonts/HoeflerText-Regular.ttf') format('truetype');
+  src: url('../fonts/HoeflerText-Regular.eot');
+  src: url('../fonts/HoeflerText-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HoeflerText-Regular.woff') format('woff'),
+    url('../fonts/HoeflerText-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -64,7 +64,7 @@ body{
     padding-right: 5%;
     padding-bottom: 5%;
     padding-left: 50%;
-    background: url('img/2.jpg');
+    background: url('../img/2.jpg');
     background-size: cover;
     color: white;
     font-family: 'HelveticaRounded-Bold';
@@ -77,7 +77,7 @@ body{
     padding-right: 5%;
     padding-bottom: 5%;
     padding-left: 50%;
-    background: url('img/3.jpg');
+    background: url('../img/3.jpg');
     background-size: cover;
     color: white;
     font-family: 'HelveticaRounded-Bold';
@@ -90,7 +90,7 @@ body{
     padding-right: 5%;
     padding-bottom: 5%;
     padding-left: 55%;
-    background: url('img/4.jpg');
+    background: url('../img/4.jpg');
     background-size: cover;
     color: white;
     font-family: 'HelveticaRounded-Bold';
@@ -205,7 +205,7 @@ p{
 
 /* For mobile phones: */
 html #page_1{
-    background: url("img/bg_iphone.png") no-repeat center center fixed; 
+    background: url("../img/bg_iphone.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -215,7 +215,7 @@ html #page_1{
 }
 
 html #page_2{
-    background: url("img/bg2_iphone.png") no-repeat center center fixed;
+    background: url("../img/bg2_iphone.png") no-repeat center center fixed;
     background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -262,7 +262,7 @@ h3{
     padding-right: 5%;
     padding-bottom: 5%;
     padding-left: 50%;
-    background: url('img/2.jpg');
+    background: url('../img/2.jpg');
     background-size: cover;
     color: white;
     font-family: 'HelveticaRounded-Bold';
@@ -275,7 +275,7 @@ h3{
     padding-right: 5%;
     padding-bottom: 5%;
     padding-left: 50%;
-    background: url('img/3.jpg');
+    background: url('../img/3.jpg');
     background-size: cover;
     color: white;
     font-family: 'HelveticaRounded-Bold';
@@ -288,7 +288,7 @@ h3{
     padding-right: 5%;
     padding-bottom: 5%;
     padding-left: 55%;
-    background: url('img/4.jpg');
+    background: url('../img/4.jpg');
     background-size: cover;
     color: white;
     font-family: 'HelveticaRounded-Bold';
@@ -321,7 +321,7 @@ h3{
 @media only screen and (min-width: 600px) {
     /* For tablets: */
 html #page_1{
-    background: url("img/bg_ipad.png") no-repeat center center fixed; 
+    background: url("../img/bg_ipad.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -331,7 +331,7 @@ html #page_1{
 }
 
 html #page_2{
-    background: url("img/bg2_ipad.png") no-repeat center center fixed; 
+    background: url("../img/bg2_ipad.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -355,7 +355,7 @@ html #page_2{
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     html #page_1{
-    background: url("img/bg.png") no-repeat center center fixed; 
+    background: url("../img/bg.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -365,7 +365,7 @@ html #page_2{
 }
 
 html #page_2{
-    background: url("img/bg2.png") no-repeat center center fixed; 
+    background: url("../img/bg2.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -392,8 +392,8 @@ html #page_2{
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('fonts/glyphicons-halflings-regular.eot');
-  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
