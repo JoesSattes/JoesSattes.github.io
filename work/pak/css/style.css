@@ -86,11 +86,12 @@
 
 .name img{
     position: absolute;
-    width: 55%;
-    top: 267%;
+    width: 45%;
+    top: 260%;
     bottom: 0;
-    left: 22%;
+    left: 30%;
     right: 0;
+    margin-bottom: 5%;
 }
 
 .name2 img{
@@ -375,7 +376,7 @@ html .page_4{
 }
 
 .name img{
-    top: 316%;
+    top: 310%;
 }
 
 .name2 img{
