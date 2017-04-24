@@ -1,3 +1,6 @@
+a{
+    background: red;
+}
 .container{
     margin-left: 18%;
     margin-right: 18%;
@@ -301,24 +304,24 @@
     margin: auto;
 }
 html .page_1{
-  background-image: url("img/01/bg.png");
+  background-image: url("../img/01/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 html .page_2{
-  background-image: url("img/02/bg.png");
+  background-image: url("../img/02/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 html .page_3{
-  background-image: url("img/03/bg.png");
+  background-image: url("../img/03/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 html .page_4{
-  background-image: url("img/04/bg.png");
+  background-image: url("../img/04/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -326,21 +329,21 @@ html .page_4{
 
 @media only screen and (max-width: 900px) {
 html .page_1{
-  background: url("img/01/bg.png") no-repeat center center fixed;
+  background: url("../img/01/bg.png") no-repeat center center fixed;
   background-size: cover;
 }
 html .page_2{
-  background: url("img/02/bg.png") no-repeat center center fixed;
+  background: url("../img/02/bg.png") no-repeat center center fixed;
   background-size: cover;
 }
 
 html .page_3{
-  background: url("img/03/bg.png") no-repeat center center fixed;
+  background: url("../img/03/bg.png") no-repeat center center fixed;
   background-size: cover;
 }
 
 html .page_4{
-  background: url("img/04/bg.png") no-repeat center top fixed;
+  background: url("../img/04/bg.png") no-repeat center top fixed;
   background-size: cover;
 }
 
