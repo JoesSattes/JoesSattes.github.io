@@ -10,7 +10,6 @@
 .cloud img{
     width: 85%;
     padding-left: 8%;
-    visibility: hidden;
 }
 
 .menu_img1{
@@ -478,6 +477,10 @@ html .page_4{
     left: 14%;
     right: 0;
 }
+
+.cloud{
+    visibility: hidden;
+}
 }
 
 a
@@ -493,10 +496,11 @@ a:hover
   color: tomato;
 }
 
+
 #menuToggle
 {
   display: block;
-  position: relative;
+  position: absolute;
   top: 50px;
   left: 50px;
   
@@ -622,4 +626,3 @@ a:hover
   transform: scale(1.0, 1.0);
   opacity: 1;
 }
-
