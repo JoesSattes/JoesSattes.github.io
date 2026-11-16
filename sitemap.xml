@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Published at https://joessattes.github.io/sitemap.xml (repo JoesSattes.github.io). Lists the sitemaps of the
+     project sites on this host, so a sitemap submitted for the root property covers them. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://joessattes.github.io/Sattaya-AI-Website/sitemap.xml</loc></sitemap>
+  <sitemap><loc>https://joessattes.github.io/ai-model-explorer/sitemap.xml</loc></sitemap>
+</sitemapindex>
